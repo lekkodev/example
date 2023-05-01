@@ -1,6 +1,6 @@
 {
   "key": "hello",
-  "description": "my feature description",
+  "description": "Feature used for the hello world example",
   "tree": {
     "default": {
       "@type": "type.googleapis.com/google.protobuf.StringValue",

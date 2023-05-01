@@ -1,4 +1,4 @@
 result = feature(
-    description = "my feature description",
+    description = "Feature used for the hello world example",
     default = "world",
 )
