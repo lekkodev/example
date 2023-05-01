@@ -1,0 +1,11 @@
+{
+  "key": "hello",
+  "description": "Feature used for the hello world example",
+  "tree": {
+    "default": {
+      "@type": "type.googleapis.com/google.protobuf.StringValue",
+      "value": "world"
+    }
+  },
+  "type": "FEATURE_TYPE_STRING"
+}
