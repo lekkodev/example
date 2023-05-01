@@ -1,0 +1,4 @@
+version: v1
+namespaces:
+    - default
+protoDir: proto

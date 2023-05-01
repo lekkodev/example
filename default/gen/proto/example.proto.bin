@@ -1,0 +1,4 @@
+
+exampleexample bool feature1
+/
+-type.googleapis.com/google.protobuf.BoolValue 

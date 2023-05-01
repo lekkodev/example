@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package default.config.v1beta1;
+
+message Foo {
+    string bar = 1;
+}
