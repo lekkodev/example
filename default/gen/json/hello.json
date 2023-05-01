@@ -5,7 +5,50 @@
     "default": {
       "@type": "type.googleapis.com/google.protobuf.StringValue",
       "value": "world"
-    }
+    },
+    "constraints": [
+      {
+        "rule": "context-key == \"a\"",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.StringValue",
+          "value": "first rule"
+        },
+        "ruleAst": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "a",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
+      },
+      {
+        "rule": "context-key == \"b\"",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.StringValue",
+          "value": "second rule"
+        },
+        "ruleAst": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "b",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
+      },
+      {
+        "rule": "context-key pr",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.StringValue",
+          "value": "unknown context-key"
+        },
+        "ruleAst": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonOperator": "COMPARISON_OPERATOR_PRESENT"
+          }
+        }
+      }
+    ]
   },
   "type": "FEATURE_TYPE_STRING"
 }
