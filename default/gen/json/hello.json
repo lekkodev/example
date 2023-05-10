@@ -4,14 +4,14 @@
   "tree": {
     "default": {
       "@type": "type.googleapis.com/google.protobuf.StringValue",
-      "value": "world"
+      "value": "world?"
     },
     "constraints": [
       {
         "rule": "context-key == \"a\"",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
-          "value": "first rule"
+          "value": "first rule!"
         },
         "ruleAst": {
           "atom": {
