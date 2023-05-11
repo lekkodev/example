@@ -4,7 +4,7 @@
   "tree": {
     "default": {
       "@type": "type.googleapis.com/google.protobuf.StringValue",
-      "value": "world?"
+      "value": "world?!"
     },
     "constraints": [
       {
@@ -22,15 +22,15 @@
         }
       },
       {
-        "rule": "context-key == \"b\"",
+        "rule": "context-key == \"customer-a\"",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
-          "value": "second rule"
+          "value": "thing for customer a"
         },
         "ruleAst": {
           "atom": {
             "contextKey": "context-key",
-            "comparisonValue": "b",
+            "comparisonValue": "customer-a",
             "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
           }
         }

@@ -1,18 +1,19 @@
 
-hello(Feature used for the hello world exampleŒ
-;
-/type.googleapis.com/google.protobuf.StringValue
-world?n
+hello(Feature used for the hello world example©
+<
+/type.googleapis.com/google.protobuf.StringValue	
+world?!n
 context-key == "a"@
 /type.googleapis.com/google.protobuf.StringValue
 first rule!"
 
-context-keyan
-context-key == "b"@
-/type.googleapis.com/google.protobuf.StringValue
-second rule"
-
-context-keybm
+context-keya‰
+context-key == "customer-a"I
+/type.googleapis.com/google.protobuf.StringValue
+thing for customer a"
+
+context-key
+customer-am
 context-key prH
 /type.googleapis.com/google.protobuf.StringValue
 unknown context-key"
