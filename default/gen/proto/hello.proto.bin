@@ -1,5 +1,5 @@
 
-hello(Feature used for the hello world exampleŒ
+hello(Feature used for the hello world exampleŠ
 ;
 /type.googleapis.com/google.protobuf.StringValue
 world?n
@@ -18,4 +18,9 @@
 unknown context-key"
 
 context-key
- 
+|
+context-key == "snowflake">
+/type.googleapis.com/google.protobuf.StringValue
+	Snowflake"
+
+context-key	snowflake 

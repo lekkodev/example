@@ -5,5 +5,6 @@ result = feature(
         ("context-key == \"a\"", "first rule!"),
         ("context-key == \"b\"", "second rule"),
         ("context-key pr", "unknown context-key"),
+        ("context-key == \"snowflake\"", "Snowflake"),
     ],
 )
