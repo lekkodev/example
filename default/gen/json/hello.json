@@ -36,6 +36,20 @@
         }
       },
       {
+        "rule": "context-key == \"snowflake\"",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.StringValue",
+          "value": "Snowflake"
+        },
+        "ruleAst": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "snowflake",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
+      },
+      {
         "rule": "context-key pr",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
