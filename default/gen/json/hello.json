@@ -4,7 +4,7 @@
   "tree": {
     "default": {
       "@type": "type.googleapis.com/google.protobuf.StringValue",
-      "value": "world?"
+      "value": "world"
     },
     "constraints": [
       {
@@ -36,6 +36,20 @@
         }
       },
       {
+        "rule": "context-key == \"snowflake\"",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.StringValue",
+          "value": "Snowflake!?"
+        },
+        "ruleAst": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "snowflake",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
+      },
+      {
         "rule": "context-key pr",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
@@ -45,20 +59,6 @@
           "atom": {
             "contextKey": "context-key",
             "comparisonOperator": "COMPARISON_OPERATOR_PRESENT"
-          }
-        }
-      },
-      {
-        "rule": "context-key == \"snowflake\"",
-        "value": {
-          "@type": "type.googleapis.com/google.protobuf.StringValue",
-          "value": "Snowflake"
-        },
-        "ruleAst": {
-          "atom": {
-            "contextKey": "context-key",
-            "comparisonValue": "snowflake",
-            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
           }
         }
       }
