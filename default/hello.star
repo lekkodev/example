@@ -4,7 +4,6 @@ result = feature(
     rules = [
         ("context-key == \"a\"", "first rule!"),
         ("context-key == \"b\"", "second rule"),
-        ("context-key == \"snowflake\"", "Snowflake!?"),
         ("context-key pr", "unknown context-key"),
     ],
 )

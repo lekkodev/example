@@ -1,5 +1,5 @@
 
-hello(Feature used for the hello world example‹
+hello(Feature used for the hello world example‹
 :
 /type.googleapis.com/google.protobuf.StringValue
 worldn
@@ -12,12 +12,7 @@
 /type.googleapis.com/google.protobuf.StringValue
 second rule"
 
-context-keyb~
-context-key == "snowflake"@
-/type.googleapis.com/google.protobuf.StringValue
-Snowflake!?"
-
-context-key	snowflakem
+context-keybm
 context-key prH
 /type.googleapis.com/google.protobuf.StringValue
 unknown context-key"
