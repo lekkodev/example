@@ -15,7 +15,7 @@
 context-keyb~
 context-key == "snowflake"@
 /type.googleapis.com/google.protobuf.StringValue
-Snowflake!?"
+snowflake!?"
 
 context-key	snowflakem
 context-key prH
