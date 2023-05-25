@@ -61,6 +61,20 @@
             "comparisonOperator": "COMPARISON_OPERATOR_PRESENT"
           }
         }
+      },
+      {
+        "rule": "customer_name == \"customer-b\"",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.StringValue",
+          "value": "customer-b"
+        },
+        "ruleAst": {
+          "atom": {
+            "contextKey": "customer_name",
+            "comparisonValue": "customer-b",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
       }
     ]
   },

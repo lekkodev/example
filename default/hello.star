@@ -6,5 +6,6 @@ result = feature(
         ("context-key == \"b\"", "second rule"),
         ("context-key == \"snowflake\"", "no we like redshift"),
         ("context-key pr", "unknown context-key"),
+        ("customer_name == \"customer-b\"", "customer-b"),
     ],
 )
