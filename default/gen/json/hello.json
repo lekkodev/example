@@ -4,7 +4,7 @@
   "tree": {
     "default": {
       "@type": "type.googleapis.com/google.protobuf.StringValue",
-      "value": "world"
+      "value": "orbital"
     },
     "constraints": [
       {
@@ -39,7 +39,7 @@
         "rule": "context-key == \"snowflake\"",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
-          "value": "Snowflake!?"
+          "value": "no we like redshift"
         },
         "ruleAst": {
           "atom": {
