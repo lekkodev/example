@@ -1,17 +1,26 @@
 
-hello(Feature used for the hello world example²
+hello(Feature used for the hello world example–
 <
 /type.googleapis.com/google.protobuf.StringValue	
-orbitalV
+orbitaln
 context-key == "a"@
 /type.googleapis.com/google.protobuf.StringValue
-first rule!V
+first rule!*
+
+context-keyan
 context-key == "b"@
 /type.googleapis.com/google.protobuf.StringValue
-second rulef
+second rule*
+
+context-keyb†
 context-key == "snowflake"H
 /type.googleapis.com/google.protobuf.StringValue
-no we like redshiftZ
+no we like redshift*
+
+context-key	snowflakem
 context-key prH
 /type.googleapis.com/google.protobuf.StringValue
-unknown context-key 
+unknown context-key*
+
+context-key
+ 

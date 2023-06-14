@@ -12,6 +12,13 @@
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
           "value": "first rule!"
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "a",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
         }
       },
       {
@@ -19,6 +26,13 @@
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
           "value": "second rule"
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "b",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
         }
       },
       {
@@ -26,6 +40,13 @@
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
           "value": "no we like redshift"
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "snowflake",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
         }
       },
       {
@@ -33,6 +54,12 @@
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
           "value": "unknown context-key"
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonOperator": "COMPARISON_OPERATOR_PRESENT"
+          }
         }
       }
     ]

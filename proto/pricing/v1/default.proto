@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pricing.v1;
+
+message PricingTier {
+  string description = 1;
+  double pricing = 2;
+  int32 num_accounts = 3;
+  repeated string features = 4;
+  double discount_pricing = 5;
+  string plan_url = 6;
+  string copy = 7;
+}
+
+message PricingTiers {
+    repeated PricingTier tiers = 1;
+}
