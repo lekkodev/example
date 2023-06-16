@@ -7,7 +7,7 @@ def round(v):
 # all plans include base features and may include additional features
 individualTier = pricing_v1.PricingTier(
     description = "Individuals",
-    pricing = 19.99,
+    pricing = 9.99,
     num_accounts = 1,
     features = [
         "Ad-frees music listening",

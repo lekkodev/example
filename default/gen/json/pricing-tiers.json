@@ -7,7 +7,7 @@
       "tiers": [
         {
           "description": "Individuals",
-          "pricing": 19.99,
+          "pricing": 9.99,
           "numAccounts": 1,
           "features": [
             "Ad-frees music listening",
@@ -18,7 +18,7 @@
         },
         {
           "description": "Duo",
-          "pricing": 22.99,
+          "pricing": 12.99,
           "numAccounts": 2,
           "features": [
             "2 Premium accounts for a couple under one roof",
@@ -28,7 +28,7 @@
         },
         {
           "description": "Family",
-          "pricing": 25.99,
+          "pricing": 15.99,
           "numAccounts": 6,
           "features": [
             "6 Premium accounts for family members living under one roof",
@@ -41,7 +41,7 @@
         },
         {
           "description": "Student",
-          "pricing": 14.99,
+          "pricing": 4.99,
           "numAccounts": 1,
           "features": [
             "Hulu (With Ads) plan",
