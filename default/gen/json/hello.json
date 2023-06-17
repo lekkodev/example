@@ -36,7 +36,7 @@
         }
       },
       {
-        "rule": "context-key == \"snowflake\" and environment == \"staging\" and region in [\"us-east-1\"]",
+        "rule": "context-key in [\"snowflake\",\"redshift\"] and environment == \"staging\" and region in [\"us-east-1\"]",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
           "value": "snowflake"
@@ -47,8 +47,11 @@
               {
                 "atom": {
                   "contextKey": "context-key",
-                  "comparisonValue": "snowflake",
-                  "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+                  "comparisonValue": [
+                    "snowflake",
+                    "redshift"
+                  ],
+                  "comparisonOperator": "COMPARISON_OPERATOR_CONTAINED_WITHIN"
                 }
               },
               {
