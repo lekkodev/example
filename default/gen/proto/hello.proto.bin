@@ -2,7 +2,7 @@
 hello(Feature used for the hello world exampleŽ
 B
 /type.googleapis.com/google.protobuf.StringValue
-Hello, World!n
+Hello, World.n
 context-key == "a"@
 /type.googleapis.com/google.protobuf.StringValue
 first rule!*
