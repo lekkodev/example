@@ -1,8 +1,8 @@
 
-hello(Feature used for the hello world exampleç
-A
-/type.googleapis.com/google.protobuf.StringValue
-Hello, Worldn
+hello(Feature used for the hello world exampleé
+B
+/type.googleapis.com/google.protobuf.StringValue
+World & Kevinn
 context-key == "a"@
 /type.googleapis.com/google.protobuf.StringValue
 first rule!*
