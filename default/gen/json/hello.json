@@ -4,14 +4,14 @@
   "tree": {
     "default": {
       "@type": "type.googleapis.com/google.protobuf.StringValue",
-      "value": "World"
+      "value": "texas"
     },
     "constraints": [
       {
         "rule": "context-key == \"a\"",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
-          "value": "first rule!"
+          "value": "key a"
         },
         "ruleAstNew": {
           "atom": {
