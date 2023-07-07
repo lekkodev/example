@@ -1,6 +1,6 @@
 result = feature(
     description = "Feature used for the hello world example",
-    default = "world",
+    default = "World",
     rules = [
         ("context-key == \"a\"", "key a"),
         ("context-key == \"b\"", "second rule"),
