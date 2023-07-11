@@ -2,7 +2,7 @@
 hello(Feature used for the hello world example€
 :
 /type.googleapis.com/google.protobuf.StringValue
-worldh
+WORLDh
 context-key == "a":
 /type.googleapis.com/google.protobuf.StringValue
 key a*
