@@ -1,4 +1,4 @@
 result = feature(
-    description = "my feature descriptionzf",
+    description = "my feature descriptionzfg",
     default = False,
 )
