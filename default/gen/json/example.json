@@ -1,6 +1,6 @@
 {
   "key": "example",
-  "description": "my feature descriptionzfg",
+  "description": "my feature description",
   "tree": {
     "default": {
       "@type": "type.googleapis.com/google.protobuf.BoolValue",
