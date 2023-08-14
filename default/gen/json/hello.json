@@ -36,6 +36,20 @@
         }
       },
       {
+        "rule": "context-key == \"c\"",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.StringValue",
+          "value": "third rule"
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "context-key",
+            "comparisonValue": "c",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
+      },
+      {
         "rule": "context-key pr",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
