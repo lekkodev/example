@@ -1,5 +1,5 @@
 
-hello(Feature used for the hello world example€
+hello(Feature used for the hello world example…
 :
 /type.googleapis.com/google.protobuf.StringValue
 worldh
@@ -12,20 +12,7 @@
 /type.googleapis.com/google.protobuf.StringValue
 second rule*
 
-context-keybø
-Scontext-key == "snowflake" and environment == "staging" and region in ["us-east-1"]>
-/type.googleapis.com/google.protobuf.StringValue
-	snowflake*a_
-
-
-context-key	snowflake
-
-
-environment	staging
-
-
-region2
-	us-east-1m
+context-keybm
 context-key prH
 /type.googleapis.com/google.protobuf.StringValue
 unknown context-key*
