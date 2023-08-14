@@ -36,43 +36,6 @@
         }
       },
       {
-        "rule": "context-key == \"snowflake\" and environment == \"staging\" and region in [\"us-east-1\"]",
-        "value": {
-          "@type": "type.googleapis.com/google.protobuf.StringValue",
-          "value": "snowflake"
-        },
-        "ruleAstNew": {
-          "logicalExpression": {
-            "rules": [
-              {
-                "atom": {
-                  "contextKey": "context-key",
-                  "comparisonValue": "snowflake",
-                  "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
-                }
-              },
-              {
-                "atom": {
-                  "contextKey": "environment",
-                  "comparisonValue": "staging",
-                  "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
-                }
-              },
-              {
-                "atom": {
-                  "contextKey": "region",
-                  "comparisonValue": [
-                    "us-east-1"
-                  ],
-                  "comparisonOperator": "COMPARISON_OPERATOR_CONTAINED_WITHIN"
-                }
-              }
-            ],
-            "logicalOperator": "LOGICAL_OPERATOR_AND"
-          }
-        }
-      },
-      {
         "rule": "context-key pr",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.StringValue",
