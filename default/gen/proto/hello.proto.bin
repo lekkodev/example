@@ -1,8 +1,8 @@
 
-hello(Feature used for the hello world example…
-:
-/type.googleapis.com/google.protobuf.StringValue
-worldh
+hello(Feature used for the hello world example„
+9
+/type.googleapis.com/google.protobuf.StringValue
+testh
 context-key == "a":
 /type.googleapis.com/google.protobuf.StringValue
 key a*
